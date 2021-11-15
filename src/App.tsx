@@ -1,18 +1,13 @@
 import React, { useState } from 'react';
 import './App.css';
+import Character from './Character/Character';
 
 function App() {
 
   const [state, setState] = useState('');
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          @
-        </p>
-      </header>
-    </div>
+    Character()
   );
 }
 
